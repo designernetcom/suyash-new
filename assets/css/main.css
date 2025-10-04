@@ -623,6 +623,8 @@ body {
   font-size: var(--rs-fs-body);
   font-weight: normal;
   line-height: 1.5;
+  font-family: auto;
+
 }
 
 h1,
@@ -644,6 +646,8 @@ h6,
   font-weight: var(--rs-fw-bold);
   word-break: break-word;
   font-family: var(--rs-ff-title);
+  font-family: auto;
+
 }
 
 h1,
@@ -789,11 +793,12 @@ ul {
 
 p {
   font-size: var(--rs-fs-p);
-  font-family: var(--rs-ff-p);
+  /* font-family: var(--rs-ff-p); */
   font-weight: var(--rs-fw-normal);
   color: var(--rs-text-primary);
   margin-bottom: 30px;
   line-height: 30px;
+  font-family: auto;
 }
 p.b1 {
   font-size: var(--rs-fs-b1);
@@ -813,6 +818,7 @@ p.b4 {
 }
 p:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .b1 {
@@ -3079,7 +3085,7 @@ textarea:focus {
 .rs-section-title {
   color: var(--rs-title-primary);
   font-weight: var(--rs-fw-bold);
-  font-family: var(--rs-ff-title);
+  /* font-family: var(--rs-ff-title); */
 }
 .rs-section-title.has-theme-blue {
   color: #0c3c61;
@@ -3244,6 +3250,8 @@ textarea:focus {
   font-size: 55px;
   margin-bottom: 15px;
   color: var(--rs-white);
+  font-family: auto;
+
 }
 @media only screen and (max-width: 991px) {
   .rs-breadcrumb-one .rs-breadcrumb-title {
@@ -6817,7 +6825,7 @@ html.lenis body {
 /*  3.5.4 Header Common Style 
 /*----------------------------------------*/
 .rs-header-logo img {
-  max-width: 180px;
+  max-width: 310px;
 }
 .rs-header-search-wrapper {
   position: relative;
@@ -9067,8 +9075,9 @@ html.lenis body {
   list-style: none;
 }
 .main-menu li a {
-  font-size: 22px;
-  font-weight: bold;
+font-size: 22px;
+    font-family: auto;
+    font-weight: 500;
   line-height: 1;
   color: var(--rs-text-primary);
   padding: 40px 20px;
@@ -11362,6 +11371,9 @@ html.lenis body {
 .rs-footer-two .rs-footer-widget-description {
   color: var(--rs-text-secondary);
   margin-bottom: 5px;
+  font-family: auto;
+  font-size: 18px;
+
 }
 .rs-footer-two .descrip {
   color: var(--rs-text-secondary);
@@ -12245,6 +12257,8 @@ html.lenis body {
 }
 .rs-about-four .rs-section-title {
   color: #142340;
+  font-family: auto;
+
 }
 .rs-about-five .rs-about-wrapper {
   display: grid;
@@ -17503,6 +17517,9 @@ html.lenis body {
 }
 .rs-services-four .rs-section-title {
   color: var(--rs-white);
+  font-family: auto;
+  
+
 }
 .rs-services-four .descrip {
   color: rgba(255, 255, 255, 0.85);
